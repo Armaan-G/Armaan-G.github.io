@@ -1,0 +1,43 @@
+/* Change font for body text to a serif font */
+body {
+    font-family: "Georgia", serif;
+    background-color: #f5f5f5; /* Light gray background */
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Apply different layout to classes page */
+.classes-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Sidebar and main content */
+    gap: 20px;
+}
+
+.classes-sidebar {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.classes-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Add a background image */
+body {
+    /* background-image: url('background.jpg'); Replace with actual image path */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Style headings */
+h1, h2 {
+    font-family: "Times New Roman", serif;
+}
+
+/* Add padding around main content */
+.container {
+    padding: 30px;
+}
